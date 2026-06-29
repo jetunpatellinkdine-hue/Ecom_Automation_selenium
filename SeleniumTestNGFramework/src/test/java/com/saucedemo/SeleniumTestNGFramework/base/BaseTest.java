@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import com.saucedemo.SeleniumTestNGFramework.utilities.ConfigReader;
 import com.saucedemo.SeleniumTestNGFramework.utilities.DriverFactory;
 
 public class BaseTest {
@@ -12,9 +13,9 @@ public class BaseTest {
 	// to get browser connection
 	@BeforeMethod
 	public void setup() {
-		driver = DriverFactory.getDriver("chrome");
+		driver = DriverFactory.getDriver(ConfigReader.getProperty("browser"));
 
-		driver.get("https://www.saucedemo.com/");
+		driver.get(ConfigReader.getUrl());
 	}
 
 	// to close to browser

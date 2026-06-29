@@ -1,121 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-09T23:03:10 IST" name="Default suite" finished-at="2026-06-09T23:03:30 IST" duration-ms="20446">
+  <suite started-at="2026-06-24T00:18:02 IST" name="Default suite" finished-at="2026-06-24T00:18:05 IST" duration-ms="3261">
     <groups>
     </groups>
-    <test started-at="2026-06-09T23:03:10 IST" name="Default test" finished-at="2026-06-09T23:03:30 IST" duration-ms="20446">
+    <test started-at="2026-06-24T00:18:02 IST" name="Default test" finished-at="2026-06-24T00:18:05 IST" duration-ms="3261">
       <class name="com.saucedemo.SeleniumTestNGFramework.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:10 IST" name="setup" finished-at="2026-06-09T23:03:13 IST" duration-ms="3377" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@4802796d]" started-at="2026-06-24T00:18:02 IST" name="setup" finished-at="2026-06-24T00:18:05 IST" duration-ms="2549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initpage()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:13 IST" name="initpage" finished-at="2026-06-09T23:03:13 IST" duration-ms="35" status="PASS">
+        <test-method is-config="true" signature="initpage()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@4802796d]" started-at="2026-06-24T00:18:05 IST" name="initpage" finished-at="2026-06-24T00:18:05 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initpage -->
-        <test-method signature="verifyLogin()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:13 IST" name="verifyLogin" finished-at="2026-06-09T23:03:14 IST" duration-ms="566" status="PASS">
+        <test-method signature="verifyLogin()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@4802796d]" started-at="2026-06-24T00:18:05 IST" name="verifyLogin" finished-at="2026-06-24T00:18:05 IST" duration-ms="432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:14 IST" name="tearDown" finished-at="2026-06-09T23:03:14 IST" duration-ms="223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:14 IST" name="setup" finished-at="2026-06-09T23:03:15 IST" duration-ms="1192" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initpage()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:15 IST" name="initpage" finished-at="2026-06-09T23:03:15 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initpage -->
-        <test-method signature="verifyLoginWithBlankPassword()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:15 IST" name="verifyLoginWithBlankPassword" finished-at="2026-06-09T23:03:16 IST" duration-ms="1121" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithBlankPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:16 IST" name="tearDown" finished-at="2026-06-09T23:03:16 IST" duration-ms="166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:16 IST" name="setup" finished-at="2026-06-09T23:03:18 IST" duration-ms="1852" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initpage()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:18 IST" name="initpage" finished-at="2026-06-09T23:03:18 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initpage -->
-        <test-method signature="verifyLoginWithBlankUsername()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:18 IST" name="verifyLoginWithBlankUsername" finished-at="2026-06-09T23:03:19 IST" duration-ms="566" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithBlankUsername -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:19 IST" name="tearDown" finished-at="2026-06-09T23:03:19 IST" duration-ms="189" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:19 IST" name="setup" finished-at="2026-06-09T23:03:21 IST" duration-ms="2290" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initpage()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:21 IST" name="initpage" finished-at="2026-06-09T23:03:21 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initpage -->
-        <test-method signature="verifyLoginWithBlankUsernameAndPassword()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:21 IST" name="verifyLoginWithBlankUsernameAndPassword" finished-at="2026-06-09T23:03:22 IST" duration-ms="472" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithBlankUsernameAndPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:22 IST" name="tearDown" finished-at="2026-06-09T23:03:22 IST" duration-ms="263" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:22 IST" name="setup" finished-at="2026-06-09T23:03:24 IST" duration-ms="1759" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initpage()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:24 IST" name="initpage" finished-at="2026-06-09T23:03:24 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initpage -->
-        <test-method signature="verifyLoginWithInvalidUsername()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:24 IST" name="verifyLoginWithInvalidUsername" finished-at="2026-06-09T23:03:24 IST" duration-ms="480" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidUsername -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:24 IST" name="tearDown" finished-at="2026-06-09T23:03:24 IST" duration-ms="172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:24 IST" name="setup" finished-at="2026-06-09T23:03:26 IST" duration-ms="1619" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initpage()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:26 IST" name="initpage" finished-at="2026-06-09T23:03:26 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initpage -->
-        <test-method signature="verifyLoginWithInvalidUsernameAndPassword()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:26 IST" name="verifyLoginWithInvalidUsernameAndPassword" finished-at="2026-06-09T23:03:26 IST" duration-ms="516" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidUsernameAndPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:26 IST" name="tearDown" finished-at="2026-06-09T23:03:27 IST" duration-ms="165" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:27 IST" name="setup" finished-at="2026-06-09T23:03:29 IST" duration-ms="2249" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="initpage()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:29 IST" name="initpage" finished-at="2026-06-09T23:03:29 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initpage -->
-        <test-method signature="verifyLoginWithInvalidpassword()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:29 IST" name="verifyLoginWithInvalidpassword" finished-at="2026-06-09T23:03:30 IST" duration-ms="865" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidpassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@7c7b252e]" started-at="2026-06-09T23:03:30 IST" name="tearDown" finished-at="2026-06-09T23:03:30 IST" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.SeleniumTestNGFramework.tests.LoginTest@4802796d]" started-at="2026-06-24T00:18:05 IST" name="tearDown" finished-at="2026-06-24T00:18:05 IST" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
